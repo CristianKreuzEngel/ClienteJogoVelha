@@ -1,15 +1,41 @@
 <!DOCTYPE html>
-<html lang="ptbr">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogo da velha</title>
+    <title>Cadastro do joguinho</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="div">
-        <p>Insira seu nome</p>
-        <input type="text" required="true">
-        <button onsubmit="true">LOGAR</button>
+    <main>
+       <h1>Insira o nome </h1> 
+       <div class="social-midia">
+        <a href="#">
+            <img src="img/facebook.png" alt="facebook">
+        </a>
+        <a href="#">
+            <img src="img/linkedin.png" alt="linkedin">
+        </a>
+        <a href="#">
+            <img src="img/google.png" alt="google">
+        </a>
     </div>
+     <div class="alternative">
+        <span>OU</span>
+     </div>
+
+     <form action="">
+        <label for="name">
+             <span>Nome</span>
+             <input type="text" id = "name" name="name">
+        </label>
+
+        <input type="submit" value="Entrar">
+     </form>
+    </main>
+    <section class="images">
+         <img src="img/ubisoft.svg" alt="joguenho">
+         <div class="circle"></div>
+    </section>
 </body>
 </html>
