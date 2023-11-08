@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro do joguinho</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <main>
@@ -24,18 +24,24 @@
         <span>OU</span>
      </div>
 
-     <form action="">
+     <form onsubmit="logar()">
         <label for="name">
              <span>Nome</span>
              <input type="text" id = "name" name="name">
         </label>
-
         <input type="submit" value="Entrar">
+        <!-- <button type="submit">ENTRAR</button> -->
      </form>
     </main>
     <section class="images">
          <img src="img/ubisoft.svg" alt="joguenho">
          <div class="circle"></div>
     </section>
+
+
+
+    <!-- Scripts -->
+    <script src="scripts/connect.js"></script>
+
 </body>
 </html>
